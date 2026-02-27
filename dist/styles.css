@@ -1,0 +1,44 @@
+:root {
+  --bg: #2E3E59;
+  --fg: #FFF8F0;
+  --accent: #F4D06F;
+}
+
+body {
+  padding: 0;
+
+  width: 100vw;
+  height: 100vh;
+  
+  background: #232F43;
+  background: linear-gradient(141deg, rgba(35, 47, 67, 1) 0%, rgba(46, 62, 89, 1) 50%, rgba(63, 84, 120, 1) 100%);
+
+  color: var(--fg);
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#camera-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#camera-container {
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.5);
+}
+
+#camera-content {
+  width: 80vw;
+  height: 45vw;
+  background-color: var(--accent);
+}
