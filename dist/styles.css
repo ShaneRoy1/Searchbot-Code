@@ -41,4 +41,6 @@ body {
   width: 80vw;
   height: 45vw;
   background-color: var(--accent);
+  object-fit: contain;
 }
+

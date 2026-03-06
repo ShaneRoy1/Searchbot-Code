@@ -1,13 +1,7 @@
 from .server import Server
-from .camera import Camera
 
 def main():
-    try:
-        camera = Camera()
-        server = Server(camera, port = 8000)
-        camera.startRecording()
-    finally:
-        camera.stopRecording()
-
+    server = Server(port = 8000)     
+    
 if __name__ == "__main__":
     main()
